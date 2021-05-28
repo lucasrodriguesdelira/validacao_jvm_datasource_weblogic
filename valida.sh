@@ -44,7 +44,7 @@ cat << EOF
     <body>
 
         <!-- AMBIENTE: NOME DO AMBIENTE -->
-        <h1> ARP948VLNCAP - Oracle OSB </h1>
+        <h1> NOME DO AMBIENTE </h1>
         <h2>$(date +"%d/%m/%Y - %H:%M") - ESTADO JVMs</h2>
         <table align="center" CELLPADDING=2 CELLSPACING=0>
             ${HTMLJVM_NOME_AMBIENTE}
