@@ -9,7 +9,7 @@ SCRIPTDIR="/u01/app/monitoracao"
 #####################
 
 # NOME DO AMBIENTE
-HTMLJVM_NOME_AMBIENTE=$(/u01/app/monitoracao/monit_jvm_healt_NOME_AMBIENTE.sh | grep '<tr>')
+HTMLJVM_NOME_AMBIENTE=$(/u01/app/monitoracao/monit_jvm_health_NOME_AMBIENTE.sh | grep '<tr>')
 HTMLDS_NOME_AMBIENTE=$(/u01/app/monitoracao/monit_ds_health_NOME_AMBIENTE.sh | grep '<tr>')
 NOME_AMBIENTE_COUNT=$(echo ${HTMLJVM_NOME_AMBIENTE} | grep '<tr>'|wc -l)
 
